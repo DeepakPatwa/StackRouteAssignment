@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="NASA">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NASA</title>
-    <!--adding supporting style file for grid-->
+    <!--adding supporting style files for grid-->
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/960_12_col.css">
@@ -16,7 +17,7 @@
     <!--creating header-->
     <div class="fixed-header">
         <header>
-            <h3 class="grid_4">The Sun</h3>
+            <h3 class="grid_4">NASA</h3>
             <!--navigation bar-->
             <div class="container">
                 <nav class="grid_8">
@@ -31,21 +32,27 @@
     </div>
     <!--hero part-->
     <div class="hero">
-        <div class="txt">
-            <img src="image/6.jpg" alt="Sun">
-        </div>
+       <div><img src="image/6.jpg"></div>
+            <!-- <source srcset="image/6.jpg" media="(min-width: 1284px)">
+            <source srcset="image/61.jpeg" media="(min-width: 400px)">
+            <source srcset="image/62.jpeg" media="(min-width: 200px)"> -->
+            <!-- <img src="image/6.jpg" media="(min-width:800px)">
+            <img src="image/61.jpeg" media="(min-width:399px)">
+            <img src="image/62.jpeg" media="(min-width:299px)"> -->
+            <!-- <source srcset="image/6.jpg" media="(min-width: 410px)">
+            <source srcset="image/6.jpg" media="(min-width: 200px)"> -->
     </div>
     <!--adding details in the container-->
-    <div class="flex-container">
-        <div>Age: 4.6 Billion Years <br />
+    <div class="flex-container" >
+        <div style="flex:1;">Age: 4.6 Billion Years <br />
             Type: Yellow Dwarf (G2V)<br />
             Diameter: 1,392,684 km<br />
             Equatorial Circumference 4,370,005.6 km<br />
             Mass: 1.99 × 10^30 kg (333,060 Earths)<br />
             Surface Temperature: 5,500 °C</div>
-        <div>The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma,with
+        <div style="flex:1;">The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma,with
             internal convective motion that generates a magnetic field via a dynamo process.</div>
-        <div>The Sun has eight known planets. This includes four terrestrial planets (Mercury, Venus, Earth, and Mars),
+        <div style="flex:1;">The Sun has eight known planets. This includes four terrestrial planets (Mercury, Venus, Earth, and Mars),
             two gas giants (Jupiter and Saturn), and two ice giants (Uranus and Neptune).</div>
     </div>
     <footer>
@@ -57,6 +64,7 @@
             </ul>
         </div>
     </footer>
+    
 </body>
 
 </html>
